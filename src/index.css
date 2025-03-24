@@ -1,0 +1,16 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    @apply  w-[600px]   grid items-center  justify-center my-0 mx-auto p-5 
+}
+h1{
+    @apply text-4xl font-bold
+}
+button{
+    @apply px-3 py-2  text-white font-semibold rounded-md bg-amber-400 hover:bg-amber-200
+}
+.row{
+    @apply flex space-x-5 items-center
+}

@@ -1,12 +1,15 @@
 import React from "react";
-import Counter from "./features/counter/Counter";
+import PostList from "./features/post/PostList";
+import AddPostForm from "./features/post/AddPostForm";
+
 export default function App() {
-
-
   return (
     <div className="wrapper">
-      <h1>hello</h1>
-      <Counter/>
+      <AddPostForm/>
+      <PostList/>
+
+      
+      
     </div>
   );
 }

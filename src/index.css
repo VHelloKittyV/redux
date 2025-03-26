@@ -1,16 +1,33 @@
 @import "tailwindcss";
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.wrapper{
-    @apply  w-[600px]   grid items-center  justify-center my-0 mx-auto p-5 
+.wrapper {
+  @apply w-[600px]   grid items-center  justify-center my-0  mx-auto p-5;
 }
-h1{
-    @apply text-4xl font-bold
+h1, h2, h3{
+  @apply text-4xl font-bold mb-1;
 }
-button{
-    @apply px-3 py-2  text-white font-semibold rounded-md bg-amber-400 hover:bg-amber-200
+h2 {
+  @apply text-3xl ;
 }
-.row{
-    @apply flex space-x-5 items-center
+h3{
+  @apply text-2xl;
+}
+button {
+  @apply px-3 py-2  text-white font-semibold rounded-md bg-amber-400 hover:bg-amber-300;
+}
+.row {
+  @apply flex space-x-5 items-center;
+}
+.col{
+  @apply flex flex-col space-y-2;
+}
+article{ @apply border-2 rounded-md p-5 mb-5}
+input,textarea{@apply border-2 rounded-md px-2 py-1}
+textarea{@apply resize-none}
+label{@apply font-semibold}
+section{@apply mb-5}
+.reactionButton{
+  @apply bg-transparent hover:bg-transparent text-black
 }
